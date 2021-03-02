@@ -1,0 +1,132 @@
+:root{
+    --purple:#6f699e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.about-us {
+    height: 150px;
+    background-color: #71b200;
+    display: flex;
+    align-items: center;
+}
+.about-us h1{
+    margin-left: 200px;
+    font-size: 2.3em;
+    color: white;
+}
+
+/* society section */
+  .about-us-tab{
+    display: flex;
+    /* justify-content:space-around; */
+    justify-content: center;
+    margin-top: 50px;
+}
+.about-us-tab .about-us-tab-content{
+    width: 35%;
+    box-shadow: 0 0 5px #7d7d7d;
+    padding: 10px 25px;
+}
+/* .about-us-tab .about-us-tab-content a{
+    color: var(--purple);
+    font-weight: 700;
+    text-decoration: none;
+} */
+.about-us-tab-content h1{
+    text-align: center;
+}
+  .about-us-tab-content p{
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.about-us-tab-content :first-child{
+    margin-bottom: 10px;
+}
+.about-us-tab .about-us-tab-img{
+    width: 40%;
+}
+.about-us-tab .about-us-tab-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    box-shadow: 0 0 5px #7d7d7d;
+}
+
+.about-us-bottom-tab {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.about-us-bottom-tab-content{
+    width: 85%;
+    /* border: 1px solid red; */
+    padding: 20px;
+    box-shadow: 0 0 5px #7d7d7d;
+}
+.about-us-bottom-tab-content p{
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* mission and vision */
+.mission-cards{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.mission-cards p{
+    font-size: 1em;
+}
+.mission-cards .mission, .mission-cards .vision{
+    box-shadow: 0 0 5px #7d7d7d;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+.mission-cards .mission i,.mission-cards .vision i {
+    font-size: 4.5em;
+    color: var(--purple);
+    margin-bottom: 10px;
+}
+.mission-cards .mission h1,.mission-cards .vision h1{
+    color: var(--purple);
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.objectives{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.objectives .objective-card{
+    width: 70%;
+    box-shadow: 0 0 5px #7d7d7d;
+    padding: 20px;
+    text-align: center;
+}
+.objectives .objective-card i{
+    font-size: 4.5em;
+    color: var(--purple);
+    margin-bottom: 15px;
+}
+.objectives .objective-card p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.objectives .objective-card h1{
+    margin-bottom: 10px;
+    color: var(--purple);
+    font-size: 1.8em;
+}
